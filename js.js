@@ -1447,7 +1447,7 @@ function start_quiz(){
 function render_ques(){
 
 ansNo=0;
-if(ques_index>9){
+if(ques_index>100){
     ques_index=0;
 }
     option_cont.innerHTML='';
